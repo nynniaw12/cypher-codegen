@@ -1,0 +1,10 @@
+[package]
+name = "cypher-codegen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+[dependencies.nom]
+version = "7"
+default-features = false
+features = ["alloc"]
